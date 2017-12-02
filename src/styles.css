@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+/*Elimina el espacio por default que le da el navegador*/
+html, body, h1, h2,h3, p, ul,li,a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+  }
+  /*El estilo que nosotros vamos a definir*/
+  body {
+    color:dimgray;
+    background-color: beige;
+    background-position: top left;
+    background-repeat: repeat;
+    font-family: helvetica,arial,"Times New Roman", sans-serif;
+    line-height: 26px;
+  }
+  
+  h1 {
+    padding: 10px 0 15px 0;
+  }
+  
+  h2 {
+    padding: 10px 0 20px 0;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+  }
+  
+  ul {
+    padding: 0 0 0 50px;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom:5px
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin-bottom:10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  
+  /*****************************************/
+  .cabecera {
+    padding: 10px;
+    background-color: #FF8800;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .nav {
+    padding:0;
+  }
+  .nav li {
+    display:inline-block;;
+    padding-right:20px;
+  }
+  .nav li:last-child {
+    padding-right:0;
+  }
+  
+  .contenido {
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    width: 1000px;
+  
+    background-color: beige;
+  
+  }
+  
+  .servicios {
+      padding: 25px 0;
+    margin: 30px auto 0 auto;
+    width: auto;
+  }
+  
+  .seccion {
+    width: 270px;
+    display: inline-block;
+    margin: 30px;
+  }
+  
+  .pie {
+    position: fixed;;
+    bottom: 0;
+    width: 100%;
+    background: black;
+  }
+  
+  .pie p {
+    color:#aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
